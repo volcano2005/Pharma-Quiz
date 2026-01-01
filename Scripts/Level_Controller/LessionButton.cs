@@ -42,7 +42,7 @@ public class LessonButton : MonoBehaviour
         }
         else
         {
-            // ❌ No hearts → Show popup
+            //  No hearts → Show popup
             NoHeartPopup.Show("You don’t have hearts!\nPlease wait until they regenerate.");
         }
     }

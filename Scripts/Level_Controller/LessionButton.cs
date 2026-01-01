@@ -37,7 +37,7 @@ public class LessonButton : MonoBehaviour
     {
         if (GameManager.I.hearts > 0)
         {
-            // ✅ Player has hearts → Start lesson
+            //  Player has hearts → Start lesson
             GameManager.I.StartLesson(lessonId);
         }
         else
